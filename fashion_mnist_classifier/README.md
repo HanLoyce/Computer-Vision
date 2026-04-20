@@ -52,11 +52,6 @@ pip install numpy matplotlib seaborn scikit-learn
 ```bash
 python complete_code.py
 ```
-或运行模块版：
-
-```bash
-python main.py
-```
 
 
 
