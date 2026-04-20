@@ -36,14 +36,14 @@ pip install numpy matplotlib seaborn scikit-learn
 
 ## 数据准备
 
-优先使用以下原始文件（位于 `data/` 目录）：
+使用以下原始文件（位于 `data/` 目录）：
 
 - `train-images-idx3-ubyte`
 - `train-labels-idx1-ubyte`
 - `t10k-images-idx3-ubyte`
 - `t10k-labels-idx1-ubyte`
 
-如果上述文件不存在，代码会尝试读取同名 `.gz` 文件；若仍不存在，则自动从官方地址下载 `.gz` 数据。
+需要自行在`fashion_mnist_classifier`文件夹下创建`data`文件夹，运行中会自动从官方地址下载 `.gz` 数据。
 
 ## 快速开始
 
