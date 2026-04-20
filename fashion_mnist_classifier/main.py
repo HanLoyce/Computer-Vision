@@ -7,7 +7,7 @@ from train import train_model
 from train import get_accuracy
 from model import MLP
 
-
+np.random.seed(123)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
