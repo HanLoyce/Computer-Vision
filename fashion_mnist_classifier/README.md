@@ -50,14 +50,16 @@ pip install numpy matplotlib seaborn scikit-learn
 在 `fashion_mnist_classifier` 目录执行：
 
 ```bash
+python complete_code.py
+```
+或运行模块版：
+
+```bash
 python main.py
 ```
 
-或运行单文件整合版：
 
-```bash
-python complete_code.py
-```
+
 
 ## 训练配置（当前代码默认）
 
