@@ -1,0 +1,11 @@
+tracker_type: bytetrack
+
+# --- Detection-to-track association ---
+track_high_thresh: 0.35
+track_low_thresh: 0.08
+new_track_thresh: 0.35
+
+# --- ID stability ---
+track_buffer: 80
+match_thresh: 0.75
+fuse_score: true

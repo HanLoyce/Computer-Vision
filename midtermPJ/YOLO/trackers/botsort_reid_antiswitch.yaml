@@ -1,0 +1,20 @@
+tracker_type: botsort
+
+# --- Detection-to-track association ---
+# 交错场景下尽量减少错误新建轨迹
+track_high_thresh: 0.40
+track_low_thresh: 0.05
+new_track_thresh: 0.50
+
+# --- ID stability ---
+# 增强遮挡后重连能力，降低交错时误匹配
+track_buffer: 160
+match_thresh: 0.65
+fuse_score: true
+
+# --- Motion compensation + appearance ReID ---
+gmc_method: sparseOptFlow
+proximity_thresh: 0.40
+appearance_thresh: 0.20
+with_reid: true
+model: auto
